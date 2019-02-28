@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* CSS Document */
+/* CSS Document from W3Schools Blog Template*/
 
 * {
   box-sizing: border-box;
@@ -7,9 +7,9 @@
 
 /* Add a gray background color with some padding */
 body {
-  font-family: Arial;
+  font-family: Ubuntu;
   padding: 20px;
-  background: #f1f1f1;
+  background: #fc7001;
 }
 
 /* Header/Blog Title */
@@ -43,7 +43,7 @@ body {
 
 /* Add a card effect for articles */
 .card {
-   background-color: white;
+   background-color: /* #FFFDF5 */ rgba(255, 255, 255, 0.7);
    padding: 20px;
    margin-top: 20px;
 }
@@ -57,14 +57,14 @@ body {
 
 /* Footer */
 .footer {
-  padding: 20px;
+  padding: 2px;
   text-align: center;
   background: #ddd;
   margin-top: 20px;
 }
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1024px) {
   .leftcolumn, .rightcolumn {   
     width: 100%;
     padding: 0;
