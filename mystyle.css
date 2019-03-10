@@ -35,7 +35,7 @@ a {
   margin-top: 2px;
   font-size: 0.7em;
   font-style: italic;
-  text-align: center;
+  text-align: left;
 }
 
 blockquote {
@@ -129,5 +129,91 @@ ul {
 
 .img18 {
   background: url("images/my_desk.png") no-repeat center;
+  background-size: contain;
+}
+
+.img17 {
+  background: url("images/happy_place.png") no-repeat center;
+  background-size: contain;
+}
+
+.img16 {
+  background: url("images/mini_projects.png") no-repeat center;
+  background-size: contain;
+}
+
+.img15 {
+  background: url("images/3_months.png") no-repeat center;
+  background-size: contain;
+}
+
+.img14 {
+  background: url("images/moves_map.png") no-repeat center;
+  background-size: contain;
+}
+
+.img13 {
+  background: url("images/Resume_site1.png") no-repeat center;
+  background-size: contain;
+}
+
+.img12 {
+  background: url("images/???.png") no-repeat center;
+  background-size: contain;
+}
+
+.img11 {
+  background: url("images/Im-walking-all-over-cancer-with-Ryvita-1.png") no-repeat center;
+  background-size: contain;
+}
+
+.img10 {
+  background: url("images/???.png") no-repeat center;
+  background-size: contain;
+}
+
+.img9 {
+  background: url("images/GNU-Pratchett-chrome.png") no-repeat center;
+  background-size: contain;
+  height: 15vh;
+}
+
+.img8 {
+  background: url("images/???.png") no-repeat center;
+  background-size: contain;
+}
+
+.img7 {
+  background: url("images/???.png") no-repeat center;
+  background-size: contain;
+}
+
+.img6 {
+  background: url("images/???.png") no-repeat center;
+  background-size: contain;
+}
+
+.img5 {
+  background: url("images/???.png") no-repeat center;
+  background-size: contain;
+}
+
+.img4 {
+  background: url("images/???.png") no-repeat center;
+  background-size: contain;
+}
+
+.img3 {
+  background: url("images/???.png") no-repeat center;
+  background-size: contain;
+}
+
+.img2 {
+  background: url("images/???.png") no-repeat center;
+  background-size: contain;
+}
+
+.img1 {
+  background: url("images/???.png") no-repeat center;
   background-size: contain;
 }
