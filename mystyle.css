@@ -179,27 +179,28 @@ ul {
 }
 
 .img8 {
-  background: url("images/???.png") no-repeat center;
+  background: url("images/RPSLS_Screenshot.png") no-repeat center;
   background-size: contain;
 }
 
 .img7 {
-  background: url("images/???.png") no-repeat center;
+  background: url("images/mentor-prototype-feedback.png") no-repeat center;
   background-size: contain;
+  max-height: 40vh;
 }
 
 .img6 {
-  background: url("images/???.png") no-repeat center;
+  background: url("images/colours_prototype_screenshot.png") no-repeat center;
   background-size: contain;
 }
 
 .img5 {
-  background: url("images/???.png") no-repeat center;
+  background: url("images/colours_interactions.png") no-repeat center;
   background-size: contain;
 }
 
 .img4 {
-  background: url("images/???.png") no-repeat center;
+  background: url("images/colours_prototype.png") no-repeat center;
   background-size: contain;
 }
 
