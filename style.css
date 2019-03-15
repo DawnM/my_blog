@@ -9,15 +9,16 @@
 body {
   font-family: Ubuntu;
   padding: 20px;
-  background: #fc7001;
+  background: #414042;
 }
 
 /* Header/Blog Title */
 .header {
-  padding: 30px;
+  padding: 10px;
   font-size: 40px;
   text-align: center;
-  background: white;
+  background: none;
+  color: white;
 }
 
 /* Create two unequal columns that floats next to each other */

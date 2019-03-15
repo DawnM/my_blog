@@ -9,6 +9,7 @@
   <meta description="A personal blog detailing my career change and other twists in the road of life.">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Patrick+Hand|Ubuntu|Ubuntu+Mono" rel="stylesheet">
+  <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="style.css" type="text/css" />
   <link rel="stylesheet" href="mystyle.css" type="text/css" />
   <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
@@ -18,7 +19,7 @@
 
   <div id="top" class="header">
     <h2>My Journey</h2>
-    <p>by DawnM</p>
+    <p class="signoff">by DawnM</p>
   </div>
 
   <div class="row">
@@ -35,7 +36,7 @@
         <p>It was a pretty scary thing swapping the domains around, as I did it all myself, with no assistance from tech support.  I hoped I knew what I was doing, but was very aware that I might end up causing untold chaos for myself.  Thankfully the swap went without a hitch, and my now self-built portfolio has been live for some weeks.</p>
         <p>One thing that did go "wrong" with the swap is that I lost the Wordpress framework that my blog was built on, as it is not offered with the hosting for dawnm.uk.  This means I have had to rebuild my blog from scratch, which I really did not budget any time for.</p>
         <p>So now you know why the blog looks significantly different, and much simpler than the previous site.  This will of course change, as I slowly add functionality and tweak the design.  But for now I just really wanted to get the blog back online, so that I could start writing again.</p>
-        <p>So in this time of transition and growth, I ask you to "bear with" as I work on my blog this year.  And absolutely <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#105;&#110;&#102;&#111;&#64;&#100;&#97;&#119;&#110;&#109;&#46;&#117;&#107;">shout out<a> any ideas you might have for discussion topics, website features, or anything else really.  As this is now on a more "personally named" domain, I will be fleshing out the topics a little, rather than focussing predominantly on my studies.</p>
+        <p>So in this time of transition and growth, I ask you to "bear with" as I work on my blog this year.  And absolutely <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#105;&#110;&#102;&#111;&#64;&#100;&#97;&#119;&#110;&#109;&#46;&#117;&#107;">shout out</a> any ideas you might have for discussion topics, website features, or anything else really.  As this is now on a more "personally named" domain, I will be fleshing out the topics a little, rather than focussing predominantly on my studies.</p>
         <p>Chat soon!</p>
         <p class="signoff">DawnM</p>
         <div class="jumper"><a href="#articles"><i class="fas fa-list-ul"></i></a><a href="#top"><i class="fas fa-home"></i></a></div>
@@ -300,7 +301,7 @@
         <p>Wow!  I can't believe it's been so long since my last post!  I do apologise.  The upside is that it means I have been very busy with studies and also a little more design work.  And of course spending time with family and friends over Christmas.</p>
         <p>Much of what I've been working on is still very much "a work in progress" but I can share a little "fun challenge" that Coral and I played with earlier this month.  I'm focussing on Python in my course at the moment, and one of the most popular challenges for beginners is a "rock, paper, scissors" game.  Now obviously many people immediately think of adding Sheldon's "lizard, Spock" to the mix (thank you to The Big Bang Theory).  Although we knew it would have been done before, we wanted to do the same, and managed to add in the extra rules without looking at any other examples.</p>
         <p>We first just coded all outcomes if the user won, with an else instruction as the default if the user lost, but that didn't work.  We then coded all possible outcomes against each user choice, and the game worked!  Just a silly bit of code, but we really enjoyed working together, and learned a lot.  It was also really satisfying to know we achieved it without looking for help elsewhere.</p>
-        <p><em>Please note we are experiencing problems linking to the game at this time. If you want to play, please <a href="">follow this link</a> to the repl.it website and try it out there. Remember to click the green "play" button.</em></p>
+        <p><em>Please note we are experiencing problems linking to the game at this time. If you want to play, please <a href="https://dawnm.co.uk/RockPaperScissorsLizzardSpock" target="_blank">follow this link</a> to the repl.it website and try it out there. Remember to click the green "play" button.</em></p>
         <div class="jumper"><a href="#articles"><i class="fas fa-list-ul"></i></a><a href="#top"><i class="fas fa-home"></i></a></div>
         <p class="tags">Tags: Back End, Code Institute Stream 2, Full Stack Developer, New Blogger, blogging101, code institute, new coder, Python</p>
       </div>
@@ -311,6 +312,7 @@
         <div class="blogimg img7"><p>Image: screenshot of great mentor feedback</p></div>
         <p>I had some great feedback from my Code Institute mentor on my prototypes, so this week has been full steam ahead with actually coding the websites.</p>
         <p>It's certainly tricky, and I feel like I am completely clueless! But I guess that is why I am a student... I'll share the desktop prototype with you this week, but not the code yet. That needs to be way more polished first! So just a quick post this week to let you know I haven't forgotten my blog, and hopefully I'll have some more exciting news next time!</p>
+        <div class="jumper"><a href="#articles"><i class="fas fa-list-ul"></i></a><a href="#top"><i class="fas fa-home"></i></a></div>
         <p>Tags: Code Institute Stream 1, Front End, Full Stack Developer, New Blogger, blogging101, career change, code institute, new coder, stream 1 project, web design</p>
       </div>
 
@@ -427,24 +429,72 @@
           <li><a  href="#post1"><span class="fa-li" ><i class="fas fa-angle-right"></i></span>Why blog?</a></li>
         </ul>
       </div>
+
+      <!-- mailchimp sign up form -->
+      <div id="mc_embed_signup" class="card">
+        <form action="https://DawnM.us20.list-manage.com/subscribe/post?u=c1434d7b2545d5fc9492750c9&amp;id=6839eab235" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+          <div id="mc_embed_signup_scroll">
+            <h2>Subscribe to our mailing list</h2>
+            
+            <div class="mc-field-group">
+              <label for="mce-FNAME">First Name  <span class="asterisk">*</span></label>
+              <input type="text" value="" name="FNAME" class="required" id="mce-FNAME">
+            </div>
+            <div class="mc-field-group">
+              <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span></label>
+              <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+            </div>
+            <div id="mergeRow-gdpr" class="mergeRow gdpr-mergeRow content__gdprBlock mc-field-group">
+              <div class="content__gdpr">
+                <label class="bold">Marketing Permissions</label>
+                <p>Please select all the ways you would like to hear from DawnM:</p>
+                <fieldset class="mc_fieldset gdprRequired mc-field-group" name="interestgroup_field">
+                  <label class="checkbox subfield" for="gdpr_12471">
+                    <input type="checkbox" id="gdpr_12471" name="gdpr[12471]" value="Y" class="av-checkbox gdpr"><span>Email</span> 
+                  </label>
+                  <label class="checkbox subfield" for="gdpr_12475">
+                    <input type="checkbox" id="gdpr_12475" name="gdpr[12475]" value="Y" class="av-checkbox gdpr"><span>Direct Mail</span>
+                  </label>
+                </fieldset>
+                <p>You can unsubscribe at any time by clicking the link in the footer of our emails.</p>
+              </div>
+              <div class="content__gdprLegal">
+                <p>We use Mailchimp as our marketing platform. By clicking below to subscribe, you acknowledge that your information will be transferred to Mailchimp for processing. <a href="https://mailchimp.com/legal/" target="_blank">Learn more about Mailchimp's privacy practices here.</a></p>
+              </div>
+            </div>
+            <div id="mce-responses" class="clear">
+              <div class="response" id="mce-error-response" style="display:none"></div>
+              <div class="response" id="mce-success-response" style="display:none"></div>
+            </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+              <input type="text" name="b_c1434d7b2545d5fc9492750c9_6839eab235" tabindex="-1" value="">
+            </div>
+            <div class="indicates-required"><span class="asterisk">*</span> all fields are required</div>
+            <div class="clear">
+              <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+            </div>
+          </div>
+        </form>
+      </div>
+
       <div class="card">
-<!--         <h3>Get connected</h3> -->
+        <!-- <h3>Get connected</h3> -->
         <div class="follow">
           <a href="https://dawnm.co.uk/work-twitter"><i class="fab fa-twitter fa-3x"></i></a>
           <a href="https://dawnm.co.uk/my-github"><i class="fab fa-github fa-3x"></i></a>
           <a href="https://dawnm.co.uk/work-fb"><i class="fab fa-facebook-f fa-3x"></i></a>
           <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#105;&#110;&#102;&#111;&#64;&#100;&#97;&#119;&#110;&#109;&#46;&#117;&#107;"><i class="fas fa-envelope fa-3x"></i></a>
-          
-          
         </div>
       </div>
     </div>
   </div>
 
   <div class="footer">
-  <!--  <h2>Footer</h2>-->
     <p>Copyright 2019 &copy; Dawn Calder-Murphy</p>
   </div>
+
+<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+<script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='FNAME';ftypes[1]='text';fnames[0]='EMAIL';ftypes[0]='email';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
 
 </body>
 </html>
