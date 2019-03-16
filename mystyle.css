@@ -2,9 +2,16 @@
 /* CSS Document for my own styles*/
 
 body {
-  background-image: url("img_tree.gif");
-  background-repeat: no-repeat;
+  background: url("images/journey-2x.png") no-repeat center;
+  background-size: cover;
   background-attachment: fixed;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.container {
+  max-width: 95vw;
+  margin: 0 auto;
 }
 
 .header {
@@ -23,6 +30,7 @@ body {
 
 .card {
   border-radius: 5px;
+  overflow: auto;
 }
 
 a {
@@ -38,10 +46,6 @@ li a {
 .tags {
   font-size: 0.8em;
   font-family: "Ubuntu Mono";
-}
-
-.blogimg {
-  height: 50vh;
 }
 
 .blogimg p {
@@ -80,6 +84,7 @@ blockquote::before {
   font-family: "Patrick Hand";
   font-size: 1.2em;
   letter-spacing: 0.1em;
+  color: #e2062c;
 }
 
 .jumper {
@@ -167,93 +172,119 @@ ul {
 .img24 {
   background: url("images/domains_under_construction.jpg") no-repeat center;
   background-size: contain;
+  float: left;
+  margin: 20px;
+  min-height: 30vh;
+  min-width: 30vh;
 }
 
 .img23a {
   background: url("images/hackathon_result.png") no-repeat center;
   background-size: contain;
+  height: 40vh;
 }
 
 .img23b {
   background: url("images/Team4-TheMonstars-Trello.png") no-repeat center;
   background-size: contain;
+  height: 50vh;
 }
 
 .img23c {
   background: url("images/C9_collab.png") no-repeat center;
   background-size: contain;
+  height: 40vh;
 }
 
 .img23d {
   background: url("images/raspberry_pi_2.png") no-repeat center;
   background-size: contain;
+  height: 40vh;
 }
 
 .img22 {
   background: url("images/data_dashboard_result.png") no-repeat center;
   background-size: contain;
+  height: 40vh;
 }
 
 .img21 {
   background: url("images/resume_result.png") no-repeat center;
   background-size: contain;
+  height: 50vh;
 }
 
 .img20 {
   background: url("images/data-dashboard.png") no-repeat center;
   background-size: contain;
+  height: 30vh;
 }
 
 .img19 {
   background: url("images/my-guide-logo-v1-keyline.jpg") no-repeat center;
   background-size: contain;
-  max-height: 200px;
+  height: 25vh;
+  width: 25vh;
+  margin: 20px;
   float: right;
 }
 
 .img18 {
   background: url("images/my_desk.png") no-repeat center;
   background-size: contain;
+  height: 30vh;
 }
 
 .img17 {
   background: url("images/happy_place.png") no-repeat center;
   background-size: contain;
+  height: 30vh;
 }
 
 .img16 {
   background: url("images/mini_projects.png") no-repeat center;
   background-size: contain;
+  height: 30vh;
 }
 
 .img15 {
   background: url("images/3_months.png") no-repeat center;
   background-size: contain;
+  height: 30vh;
 }
 
 .img14 {
+  /*replace this with actual map*/
   background: url("images/moves_map.png") no-repeat center;
   background-size: contain;
+  height: 50vh;
 }
 
 .img13 {
   background: url("images/Resume_site1.png") no-repeat center;
   background-size: contain;
+  height: 50vh;
 }
 
 .img12 {
   background: url("images/type_artistic_science.JPG") no-repeat center;
   background-size: contain;
+  float: left;
+  margin: 20px;
+  min-height: 30vh;
+  min-width: 30vh;
 }
 
 .img11 {
   background: url("images/Im-walking-all-over-cancer-with-Ryvita-1.png") no-repeat center;
   background-size: contain;
+  height: 25vh;
 }
 
 .img10 {
   background: url("images/???.png") no-repeat center;
   background-size: contain;
+  height: 40vh;
 }
 
 .img9 {
@@ -265,40 +296,45 @@ ul {
 .img8 {
   background: url("images/RPSLS_Screenshot.png") no-repeat center;
   background-size: contain;
+  height: 40vh;
 }
 
 .img7 {
   background: url("images/mentor-prototype-feedback.png") no-repeat center;
   background-size: contain;
-  max-height: 40vh;
+  float: right;
+  height: 25vh;
 }
 
 .img6 {
   background: url("images/colours_prototype_screenshot.png") no-repeat center;
   background-size: contain;
+  height: 50vh;
 }
 
 .img5 {
   background: url("images/colours_interactions.png") no-repeat center;
   background-size: contain;
+  height: 50vh;
 }
 
 .img4 {
   background: url("images/colours_prototype.png") no-repeat center;
   background-size: contain;
-}
-
-.img3 {
-  background: url("images/???.png") no-repeat center;
-  background-size: contain;
+  height: 50vh;
 }
 
 .img2 {
   background: url("images/lost-blogger.png") no-repeat center;
   background-size: contain;
+  float: left;
+  width: 30vh;
+  height: 30vh;
+  margin: 20px;
 }
 
 .img1 {
   background: url("images/why_blog.png") no-repeat center;
   background-size: contain;
+  height: 40vh;
 }

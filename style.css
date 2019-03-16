@@ -44,7 +44,7 @@ body {
 
 /* Add a card effect for articles */
 .card {
-   background-color: /* #FFFDF5 */ rgba(255, 255, 255, 0.7);
+   background-color: /* #FFFDF5 */ rgba(255, 255, 255, 0.8);
    padding: 20px;
    margin-top: 20px;
 }
