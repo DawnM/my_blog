@@ -12,6 +12,10 @@ body {
   background: #414042;
 }
 
+h1, h2, h3 {
+  -webkit-margin-before: 0.3em;
+}
+
 /* Header/Blog Title */
 .header {
   padding: 10px;

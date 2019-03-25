@@ -5,6 +5,7 @@ body {
   background: url("images/journey-2x.png") no-repeat center;
   background-size: cover;
   background-attachment: fixed;
+  height: 100vh;
   margin: 0 !important;
   padding: 0 !important;
 }
@@ -120,7 +121,8 @@ ul {
 
 /*mailchimp form styling*/
   #mc_embed_signup {
-    clear:left; 
+    clear:left;
+    font-size: 0.9em;
   }
 
   #mc-embedded-subscribe-form input[type=checkbox] {
@@ -148,13 +150,8 @@ ul {
     margin: 2px;
   }
 
-  .indicates-required {
-    font-style: italic;
-    font-size: 0.8em;
-  }
-
-  .bold {
-    font-weight: bold;
+  .content__gdprLegal {
+    font-size: 0.7em;
   }
 
   .button {
@@ -167,7 +164,11 @@ ul {
     background-color: #83a138;
   }
 
-  
+.img25 {
+  background: url("images/grief-is-a-suitcase.png") no-repeat center;
+  background-size: contain;
+  height: 40vh;
+}
 
 .img24 {
   background: url("images/domains_under_construction.jpg") no-repeat center;
